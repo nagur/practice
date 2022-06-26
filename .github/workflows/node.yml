@@ -13,7 +13,7 @@ jobs:
         image: mongo
         ports: 
           - "27017:27017"
-      steps:
+    steps:
         - name: post a user
           run: echo "hello"
         - name: Get users
